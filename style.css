@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&display=swap");
+
+* {
+  font-family: "Baloo Da 2", sans-serif;
+}
+
+/* ----- Navbar -----  */
+
+.btn-navbar {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 0.5rem 2.5rem;
+  background: linear-gradient(110deg, #ef512e 0%, #de0655 100%);
+  color: white;
+  border-radius: 1.5rem;
+  margin: 0.5rem;
+  border: none;
+}
+
+.btn-navbar:hover {
+  color: white;
+  background: linear-gradient(110deg, #de0655 0%, #ef512e 100%);
+}
