@@ -56,3 +56,26 @@
 .carousel-indicators .active {
   background-color: #f0532d;
 }
+
+/* ----- Programs Section -----  */
+
+.program-container {
+  background-color: #e1dbff;
+  background-image: url(https://udvash.com/media/Images/UDVASH/Common/courseBefore.png),
+    url(https://udvash.com/media/Images/UDVASH/Common/courseBefore.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right bottom;
+}
+
+.program-title {
+  font-size: 4rem;
+}
+
+.dropdowns {
+  border: none;
+  border-radius: 2rem;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}

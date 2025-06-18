@@ -29,4 +29,10 @@
     width: 0.75rem !important;
     margin: 0 0.5rem !important;
   }
+
+  /* ----- Programs Section -----  */
+
+  .program-title {
+    font-size: 2rem;
+  }
 }
