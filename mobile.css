@@ -21,4 +21,12 @@
     left: 0;
     padding: 0 1rem;
   }
+
+  /* ------ Sliders -----  */
+
+  .round-btn {
+    height: 0.75rem !important;
+    width: 0.75rem !important;
+    margin: 0 0.5rem !important;
+  }
 }

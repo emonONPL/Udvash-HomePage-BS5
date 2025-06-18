@@ -21,3 +21,38 @@
   color: white;
   background: linear-gradient(110deg, #de0655 0%, #ef512e 100%);
 }
+
+/* ------ Sliders -----  */
+
+#slide1 {
+  background: linear-gradient(to bottom, #8b3d9b, #26022d);
+}
+
+#slide2 {
+  background: linear-gradient(to bottom, #670000, #004d13);
+}
+
+#slide3 {
+  background: linear-gradient(to bottom, #101124, #004e92);
+}
+
+#slide4 {
+  background: linear-gradient(to bottom, #08291c, #007f49);
+}
+
+#slide5 {
+  background: linear-gradient(to bottom, #273271, #5abaa3);
+}
+
+.round-btn {
+  height: 1rem !important;
+  width: 1rem !important;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 100% !important;
+  margin: 0 1rem !important;
+}
+
+.carousel-indicators .active {
+  background-color: #f0532d;
+}
