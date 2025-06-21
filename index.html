@@ -18,7 +18,9 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="lg.css" />
+    <link rel="stylesheet" href="md.css" />
+    <link rel="stylesheet" href="sm.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="app.js"></script>
@@ -31,7 +33,7 @@
     <nav
       class="navbar navbar-expand-lg bg-body-white position-sticky top-0 z-3 bg-light"
     >
-      <div class="container">
+      <div class="container flex-nowrap">
         <a class="navbar-brand" href="#"
           ><img
             src="https://udvash.com/media/Images/UDVASH/Common/Udvash-Logo.png"
@@ -137,7 +139,7 @@
           <div id="slide1" class="carousel-item active">
             <picture>
               <source
-                media="(max-width: 992px)"
+                media="(max-width: 575px)"
                 srcset="
                   https://udvash-unmesh.com//media/Images/Udvash/sliderimage/z/EAP23Top3UpdateMob..png
                 "
@@ -152,7 +154,7 @@
           <div id="slide2" class="carousel-item">
             <picture>
               <source
-                media="(max-width: 992px)"
+                media="(max-width: 575px)"
                 srcset="
                   https://udvash-unmesh.com//media/Images/Udvash/sliderimage/z/2.png
                 "
@@ -167,7 +169,7 @@
           <div id="slide3" class="carousel-item">
             <picture>
               <source
-                media="(max-width: 992px)"
+                media="(max-width: 575px)"
                 srcset="
                   https://udvash-unmesh.com//media/Images/Udvash/sliderimage/2024/DU2024Top3Mob1.png
                 "
@@ -182,7 +184,7 @@
           <div id="slide4" class="carousel-item">
             <picture>
               <source
-                media="(max-width: 992px)"
+                media="(max-width: 575px)"
                 srcset="
                   https://udvash-unmesh.com//media/Images/Udvash/sliderimage/z/Kha02.png
                 "
@@ -197,7 +199,7 @@
           <div id="slide5" class="carousel-item">
             <picture>
               <source
-                media="(max-width: 992px)"
+                media="(max-width: 575px)"
                 srcset="
                   https://udvash-unmesh.com//media/Images/Udvash/sliderimage/z/Kha04.png
                 "
@@ -220,10 +222,10 @@
 
       <section class="program-container">
         <div class="container py-3 py-lg-5">
-          <h1 class="fw-bold text-center program-title mb-3 mb-lg-5">
+          <h1 class="fw-bold text-center program-title mb-3 mb-md-4 mb-lg-5">
             সময়োপযোগী প্রোগ্রামসমূহ
           </h1>
-          <div class="row row-cols-1 row-cols-lg-3 g-4">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <select class="dropdowns" name="classes" id="classes">
                 <option value="">All Class</option>
@@ -249,6 +251,190 @@
                 <option value="paid">Paid Program</option>
                 <option value="free">Free Program</option>
               </select>
+            </div>
+          </div>
+
+          <div
+            class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 mt-lg-5 mt-md-4 mt-3"
+          >
+            <div class="col">
+              <div class="card rounded-4 h-100">
+                <img
+                  src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/zz%20(4).png"
+                  class="card-img-top rounded-top-4"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title ms-1 fs-4 fw-bold">
+                    প্যারালাল Text (ষষ্ঠ-দ্বাদশ)
+                  </h5>
+                  <ul class="card-text mx-0">
+                    <li>দৃঢ় বেসিক গঠনে কনসেপ্ট ভিত্তিক আলোচনা</li>
+                    <li>বাস্তব উদাহরণ, গল্প এবং চিত্রালোকে সাজানো</li>
+                    <li>
+                      সংজ্ঞা, বৈশিষ্ট্য, পার্থক্য ইত্যাদি নির্দেশকের মাধ্যমে
+                      পৃথককরণ
+                    </li>
+                    <li>
+                      বোর্ড ও এডমিশন প্রশ্ন-সমাধান ব্যাখ্যাসহকারে বিশ্লেষণ
+                    </li>
+                    <li>প্র্যাকটিস ও গাণিতিক সমস্যাবলি সংযোজন</li>
+                  </ul>
+                </div>
+                <div
+                  class="card-footer bg-transparent border-0 d-flex justify-content-around"
+                >
+                  <button class="program-btn-1">Datails</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card rounded-4 h-100">
+                <img
+                  src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/1%20(1).png"
+                  class="card-img-top rounded-top-4"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title ms-1 fs-4 fw-bold">
+                    মেডিকেল + ভার্সিটি Math এডমিশন প্রোগ্রাম 2025
+                  </h5>
+                  <ul class="card-text mx-0">
+                    <li>মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস</li>
+                    <li>লাইভ ম্যারাথন ক্লাস</li>
+                    <li>প্রশ্নব্যাংক মাস্টার ক্লাস ও কুইজ</li>
+                    <li>পর্যাপ্ত সংখ্যক স্ট্যান্ডার্ড এক্সাম</li>
+                    <li>মানসম্মত সকল স্টাডি ম্যাটেরিয়ালস</li>
+                    <li>ডাউট সলভিংয়ে সার্বক্ষণিক Q & A সেবা</li>
+                  </ul>
+                </div>
+                <div
+                  class="card-footer bg-transparent border-0 d-flex justify-content-around"
+                >
+                  <button class="program-btn-2">Offline</button>
+                  <button class="program-btn-3">Online/Combo</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card rounded-4 h-100">
+                <img
+                  src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/zz%20(3).png"
+                  class="card-img-top rounded-top-4"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title ms-1 fs-4 fw-bold">
+                    ইঞ্জিনিয়ারিং + Biology এডমিশন প্রোগ্রাম 2025
+                  </h5>
+                  <ul class="card-text mx-0">
+                    <li>মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস</li>
+                    <li>লাইভ ম্যারাথন ক্লাস</li>
+                    <li>প্রশ্নব্যাংক মাস্টার ক্লাস ও কুইজ</li>
+                    <li>পর্যাপ্ত সংখ্যক স্ট্যান্ডার্ড এক্সাম</li>
+                    <li>মানসম্মত সকল স্টাডি ম্যাটেরিয়ালস</li>
+                    <li>ডাউট সলভিংয়ে সার্বক্ষণিক Q & A সেবা</li>
+                  </ul>
+                </div>
+                <div
+                  class="card-footer bg-transparent border-0 d-flex justify-content-around"
+                >
+                  <button class="program-btn-2">Offline</button>
+                  <button class="program-btn-3">Online/Combo</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card rounded-4 h-100">
+                <img
+                  src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/zz%20(1).png"
+                  class="card-img-top rounded-top-4"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title ms-1 fs-4 fw-bold">
+                    ভার্সিটি ‘ক’ & GST এডমিশন প্রোগ্রাম 2025
+                  </h5>
+                  <ul class="card-text mx-0">
+                    <li>দৃঢ় বেসিক গঠনে কনসেপ্ট ভিত্তিক আলোচনা</li>
+                    <li>বাস্তব উদাহরণ, গল্প এবং চিত্রালোকে সাজানো</li>
+                    <li>
+                      সংজ্ঞা, বৈশিষ্ট্য, পার্থক্য ইত্যাদি নির্দেশকের মাধ্যমে
+                      পৃথককরণ
+                    </li>
+                    <li>
+                      বোর্ড ও এডমিশন প্রশ্ন-সমাধান ব্যাখ্যাসহকারে বিশ্লেষণ
+                    </li>
+                    <li>প্র্যাকটিস ও গাণিতিক সমস্যাবলি সংযোজন</li>
+                  </ul>
+                </div>
+                <div
+                  class="card-footer bg-transparent border-0 d-flex justify-content-around"
+                >
+                  <button class="program-btn-1">Datails</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card rounded-4 h-100">
+                <img
+                  src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/1%20(1).png"
+                  class="card-img-top rounded-top-4"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title ms-1 fs-4 fw-bold">
+                    মেডিকেল + ভার্সিটি Math এডমিশন প্রোগ্রাম 2025
+                  </h5>
+                  <ul class="card-text mx-0">
+                    <li>মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস</li>
+                    <li>লাইভ ম্যারাথন ক্লাস</li>
+                    <li>প্রশ্নব্যাংক মাস্টার ক্লাস ও কুইজ</li>
+                    <li>পর্যাপ্ত সংখ্যক স্ট্যান্ডার্ড এক্সাম</li>
+                    <li>মানসম্মত সকল স্টাডি ম্যাটেরিয়ালস</li>
+                    <li>ডাউট সলভিংয়ে সার্বক্ষণিক Q & A সেবা</li>
+                  </ul>
+                </div>
+                <div
+                  class="card-footer bg-transparent border-0 d-flex justify-content-around"
+                >
+                  <button class="program-btn-2">Offline</button>
+                  <button class="program-btn-3">Online/Combo</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card rounded-4 h-100">
+                <img
+                  src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/zz%20(3).png"
+                  class="card-img-top rounded-top-4"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title ms-1 fs-4 fw-bold">
+                    ইঞ্জিনিয়ারিং + Biology এডমিশন প্রোগ্রাম 2025
+                  </h5>
+                  <ul class="card-text mx-0">
+                    <li>মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস</li>
+                    <li>লাইভ ম্যারাথন ক্লাস</li>
+                    <li>প্রশ্নব্যাংক মাস্টার ক্লাস ও কুইজ</li>
+                    <li>পর্যাপ্ত সংখ্যক স্ট্যান্ডার্ড এক্সাম</li>
+                    <li>মানসম্মত সকল স্টাডি ম্যাটেরিয়ালস</li>
+                    <li>ডাউট সলভিংয়ে সার্বক্ষণিক Q & A সেবা</li>
+                  </ul>
+                </div>
+                <div
+                  class="card-footer bg-transparent border-0 d-flex justify-content-around"
+                >
+                  <button class="program-btn-2">Offline</button>
+                  <button class="program-btn-3">Online/Combo</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>

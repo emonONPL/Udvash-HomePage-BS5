@@ -1,4 +1,4 @@
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991.9px) {
   /* ----- Navbar -----  */
   .custom-collapse {
     position: fixed;
@@ -32,7 +32,12 @@
 
   /* ----- Programs Section -----  */
 
-  .program-title {
-    font-size: 2rem;
+  .program-btn-1,
+  .program-btn-2 {
+    padding: 0.5rem 2rem;
+  }
+
+  .program-btn-3 {
+    padding: 0.5rem 1rem;
   }
 }

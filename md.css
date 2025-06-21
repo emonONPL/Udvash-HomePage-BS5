@@ -1,0 +1,18 @@
+@media only screen and (max-width: 767px) {
+  /* ----- Programs Section -----  */
+
+  .program-title {
+    font-size: 2rem;
+  }
+
+  /* ----- Programs Section -----  */
+
+  .program-btn-1,
+  .program-btn-2 {
+    padding: 0.5rem 1rem;
+  }
+
+  .program-btn-3 {
+    padding: 0.5rem;
+  }
+}
