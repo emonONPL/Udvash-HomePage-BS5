@@ -40,4 +40,10 @@
   .program-btn-3 {
     padding: 0.5rem 1rem;
   }
+
+  /* ----- Success Section -----  */
+
+  .container > h1 {
+    font-size: 3rem;
+  }
 }

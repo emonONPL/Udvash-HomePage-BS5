@@ -115,3 +115,39 @@
 .program-btn-3:hover {
   background: linear-gradient(to left, #38b34a, #043927);
 }
+
+/* ----- Success Section -----  */
+
+.success-container {
+  background-image: url(https://udvash.com/Themes/NewUdvashUnmeshTheme/img/udvash/successbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container > h1 {
+  font-size: 4rem;
+}
+
+.carousel-indicator {
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.carousel-indicator > button {
+  height: 1rem !important;
+  width: 1rem !important;
+  border-radius: 50% !important;
+  background-color: #8e9dd8 !important;
+  border: none;
+  opacity: 100% !important;
+  margin: 0 1rem !important;
+}
+
+.carousel-indicator .active {
+  border-radius: 1.5rem !important;
+  background-color: #112780 !important;
+  width: 3rem !important;
+}
