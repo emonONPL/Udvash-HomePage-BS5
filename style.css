@@ -151,3 +151,16 @@
   background-color: #112780 !important;
   width: 3rem !important;
 }
+
+.row > .card:nth-child(1) .success-card-title {
+  color: #9b3175;
+}
+.row > .card:nth-child(2) .success-card-title {
+  color: #db4528;
+}
+.row > .card:nth-child(3) .success-card-title {
+  color: #1e9b39;
+}
+.row > .card:nth-child(4) .success-card-title {
+  color: #986206;
+}
