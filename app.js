@@ -44,4 +44,24 @@ $(document).ready(function () {
       animated = true;
     }
   });
+
+  // ----- Testimonial Section -----
+
+  $("#testimonial-btn").click(function () {
+    let hiddenCards = $(".selec-testimonial-cards").children(".d-none");
+    let cardCount = hiddenCards.length;
+
+    for (let i = 0; i < 3; i++) {
+      if (i >= cardCount) {
+        $("#testimonial-btn").hide();
+        break;
+      }
+
+      $(hiddenCards[i]).removeClass("d-none").hide().fadeIn();
+    }
+
+    if ($(".selec-testimonial-cards").children(".d-none").length === 0) {
+      $("#testimonial-btn").hide();
+    }
+  });
 });

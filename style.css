@@ -164,3 +164,114 @@
 .row > .card:nth-child(4) .success-card-title {
   color: #986206;
 }
+
+/* ----- Testimonial Section -----  */
+
+.testimonial-container {
+  background-image: url(https://udvash.com/Themes/NewUdvashUnmeshTheme/img/udvash/testimonialbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3rem;
+}
+
+.testimonial-card {
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  position: relative;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.testimonial-card h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.testimonial-card h5 {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.testimonial-card h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-logo {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.testimonial-card hr {
+  width: 60%;
+  height: 0.25rem;
+  position: absolute;
+  bottom: -1rem;
+  left: 20%;
+  opacity: 100%;
+}
+
+.row > .col:nth-child(3n + 1) .testimonial-card {
+  background-color: #fefff6;
+  box-shadow: inset 0px 3px 6px #b3c022;
+}
+
+.row > .col:nth-child(3n + 1) .testimonial-card h2 {
+  color: #b3c022;
+}
+
+.row > .col:nth-child(3n + 1) .testimonial-card .card-image {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  border: 0.25rem solid #b3c022;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+}
+
+.row > .col:nth-child(3n + 1) .testimonial-card hr {
+  border: 0.25rem solid #b3c022;
+}
+
+.row > .col:nth-child(3n + 2) .testimonial-card {
+  background-color: #fff1f1;
+  box-shadow: inset 0px 3px 6px #f95850;
+}
+
+.row > .col:nth-child(3n + 2) .testimonial-card h2 {
+  color: #f95850;
+}
+
+.row > .col:nth-child(3n + 2) .testimonial-card .card-image {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  border: 0.25rem solid #f95850;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+}
+
+.row > .col:nth-child(3n + 2) .testimonial-card hr {
+  border: 0.25rem solid #f95850;
+}
+
+.row > .col:nth-child(3n + 3) .testimonial-card {
+  background-color: #fff9e9;
+  box-shadow: inset 0px 3px 6px #fcb700;
+}
+
+.row > .col:nth-child(3n + 3) .testimonial-card h2 {
+  color: #fcb700;
+}
+
+.row > .col:nth-child(3n + 3) .testimonial-card .card-image {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  border: 0.25rem solid #fcb700;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+}
+
+.row > .col:nth-child(3n + 3) .testimonial-card hr {
+  border: 0.25rem solid #fcb700;
+}
