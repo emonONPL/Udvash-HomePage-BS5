@@ -275,3 +275,56 @@
 .row > .col:nth-child(3n + 3) .testimonial-card hr {
   border: 0.25rem solid #fcb700;
 }
+
+/* ----- Video Section -----  */
+
+.video-container {
+  background-image: url(https://udvash.com/Themes/NewUdvashUnmeshTheme/img/udvash/videobg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video-container-box {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  margin: 1rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.video-container-box iframe {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  border: none;
+}
+
+.video-container-img {
+  position: relative;
+}
+
+.video-container-box img {
+  width: 80%;
+  height: auto;
+  border: 0.25rem solid black;
+  border-radius: 1rem;
+}
+
+.play-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #ff3e48;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  border: 0.25rem solid #ff3e48;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  background-color: #0000007e;
+}

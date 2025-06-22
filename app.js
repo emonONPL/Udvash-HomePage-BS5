@@ -45,6 +45,8 @@ $(document).ready(function () {
     }
   });
 
+  $(window).trigger("scroll");
+
   // ----- Testimonial Section -----
 
   $("#testimonial-btn").click(function () {
@@ -63,5 +65,15 @@ $(document).ready(function () {
     if ($(".selec-testimonial-cards").children(".d-none").length === 0) {
       $("#testimonial-btn").hide();
     }
+  });
+
+  // ----- Video Section -----
+
+  $(".play-icon").click(function () {
+    $("iframe").attr(
+      "src",
+      "https://www.youtube.com/embed/5GKzR0rjFvM?si=ZFYVw-BUpkPebFNn"
+    );
+    $(".video-container-img").hide();
   });
 });

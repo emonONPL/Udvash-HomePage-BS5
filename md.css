@@ -31,4 +31,15 @@
     border-radius: 1rem !important;
     width: 2rem !important;
   }
+
+  /* ----- Video Section -----  */
+
+  .video-container-box iframe {
+    left: 0;
+    width: 100%;
+  }
+
+  .video-container-box img {
+    width: 100%;
+  }
 }
