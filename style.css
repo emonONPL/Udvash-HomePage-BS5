@@ -352,6 +352,12 @@
   background-size: cover;
 }
 
+/* ----- Hasle Free Section -----  */
+
+.hasle-free-section {
+  background-color: #faefff;
+}
+
 /* ----- Others -----  */
 
 .text-justify {
