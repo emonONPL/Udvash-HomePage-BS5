@@ -283,6 +283,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 1rem;
 }
 
 .video-container-box {
@@ -306,6 +307,7 @@
 
 .video-container-img {
   position: relative;
+  padding-bottom: 1rem;
 }
 
 .video-container-box img {
@@ -327,4 +329,16 @@
   transform: translateX(-50%);
   transform: translateY(-50%);
   background-color: #0000007e;
+}
+
+/* ----- Services Section -----  */
+
+.services-container {
+  background-color: #f5fdff;
+  background-image: url(https://udvash.com/Themes/NewUdvashUnmeshTheme/img/udvash/serviceBefore.png),
+    url(https://udvash.com/Themes/NewUdvashUnmeshTheme/img/udvash/serviceAfter.png);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  margin-top: -1rem;
+  text-align: center;
 }
