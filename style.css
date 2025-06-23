@@ -358,6 +358,12 @@
   background-color: #faefff;
 }
 
+/* ----- Footer -----  */
+
+footer a:hover {
+  color: #6776f4 !important;
+}
+
 /* ----- Others -----  */
 
 .text-justify {
